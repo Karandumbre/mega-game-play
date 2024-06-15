@@ -1,0 +1,347 @@
+.main-content {
+  margin: 120px 0 60px 0;
+}
+
+.main-content .entry-header .entry-title p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.main-content .entry-header .entry-title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 600;
+  color: #040608;
+}
+
+.main-content .entry-content {
+  margin-top: 50px;
+}
+
+.main-content .entry-content .entry-header h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #040608;
+}
+
+.main-content .entry-content .entry-description p {
+  margin: 0 !important;
+  padding: 0;
+  margin-top: 25px !important;
+  font-size: 15px;
+  font-weight: 300;
+  color: #989898;
+  line-height: 2;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.main-content .featured-image {
+  margin-top: 110px;
+}
+
+.main-content .featured-image img {
+  max-width: 100%;
+}
+
+
+
+
+.start-counter,
+.counter-k,
+.entry-title,
+.entry-description p,
+p {
+  color: black !important;
+}
+
+.member-profile {
+  h4 {
+    color: white;
+  }
+
+  span {
+    color: white;
+  }
+
+}
+
+
+
+
+
+/*
+Tutorial Name: Meet the Team
+Description: A simple concept for members section.
+Author: Stanislav Kostadinov
+Author URI: http://stanislav.it
+Usage: You can use this code for free in personal and commercial projects if you build upon it. You are not allowed to republish, redistribute or sell "as-is". 
+*/
+
+
+/* Separators */
+.separator {
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 5px;
+}
+
+
+
+/* 03. SPEAKERS SETTINGS ============================================ */
+
+#speakers {
+  padding: 60px 0;
+  background: #4593e3;
+  text-align: center;
+}
+
+#speakers p {
+  padding: 20px 0 60px;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+#speakers h3 {
+  padding: 0 0 15px;
+  font-family: 'mountains';
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+#speakers h4 {
+  margin-top: -20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#speakers h4 span {
+  display: block;
+  position: relative;
+  left: -40px;
+  top: 10px;
+  font-size: 20px;
+  background: none;
+  padding: 0;
+}
+
+#speakers img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 50%;
+  border: 15px solid transparent;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
+  transition: all 0.1s ease-in;
+  // object-fit: cover;
+}
+
+#speakers img:hover {
+  border: 15px solid #3980C9;
+  position: relative;
+  z-index: 10;
+  transition: all 0.1s ease-in;
+}
+
+#speakers span {
+  padding: 8px 20px;
+  position: relative;
+  top: -64px;
+  // left: -42px;
+  display: inline-block;
+  background: #4593e3;
+  border-radius: 0 16px 16px 0;
+  font-size: 16px;
+}
+
+
+.member-profile {
+  .unhover_img {
+    filter: grayscale(100%);
+  }
+}
+
+
+.member-profile:hover {
+  span.profile {
+    display: none;
+  }
+
+  .unhover_img {
+    filter: none;
+  }
+}
+
+
+
+/* Social Networks Meta */
+#speakers li {
+  display: inline-block;
+  padding: 0 6px;
+  font-size: 18px;
+}
+
+#speakers li a {
+  color: rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in;
+}
+
+#speakers li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+  .row1 .col-md-4 {
+    display: inline-block;
+    max-width: 50%;
+  }
+
+  #speakers img {
+    max-width: 300px;
+  }
+
+}
+
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 0px;
+  font-size: 16px;
+  color: #55595d;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #113d71;
+  margin: 0px 0px 12px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.7;
+}
+
+p:last-child {
+  margin: 0px;
+}
+
+ul,
+ol {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #55595d;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #c38d3f;
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.team-block {}
+
+.team-img {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.team-img img {
+  width: 100%;
+}
+
+.team-img img.border {
+  border-color: #fff !important;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 36px;
+  opacity: 0;
+}
+
+.social-icon-box {
+  margin-bottom: 5px;
+  background-color: #193e6b;
+  width: 46px;
+  height: 46px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 15px 19px 26px 16px;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.team-img:hover .social-media {
+  opacity: 1;
+  transition: 2s ease;
+}
+
+.team-block.active .social-media {
+  opacity: 1;
+  transition: 2s ease;
+}

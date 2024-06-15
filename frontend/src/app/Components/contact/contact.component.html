@@ -1,0 +1,184 @@
+<div class="container" style="padding-top: 15px">
+  <div class="main-content">
+    <div class="get-in-touch">
+      <div class="entry-header">
+        <div class="entry-title">
+          <h2>Get in touch</h2>
+        </div>
+        <!-- entry-title -->
+      </div>
+      <!-- entry-header -->
+
+      <div class="entry-content">
+        <p class="default-font" style="font-size: large">
+          We’re here to help and answer any question you might have. We look
+          forward to hearing from you
+        </p>
+      </div>
+      <!-- entry-content -->
+
+      <form [formGroup]="contact" (ngSubmit)="sendMessage()">
+        <div class="contact-form">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <input
+                type="text"
+                placeholder="Your name"
+                class="form-control"
+                formControlName="name"
+              />
+            </div>
+            <!-- col-4 -->
+
+            <div class="col-12 col-md-6">
+              <input
+                type="email"
+                placeholder="Your email"
+                class="form-control"
+                formControlName="email"
+              />
+            </div>
+            <!-- col-6 -->
+
+            <div class="col-12">
+              <input
+                type="text"
+                placeholder="Subject"
+                class="form-control"
+                formControlName="subject"
+              />
+            </div>
+
+            <div class="col-12">
+              <textarea
+                name="name"
+                rows="8"
+                cols="80"
+                placeholder="Message"
+                class="form-control"
+                formControlName="message"
+              ></textarea>
+            </div>
+
+            <!-- <div class="col-12">
+              <div>
+                <input type="file" accept="image/x-png,image/gif,image/jpeg" (change)="onFileChanged($event)">
+              </div>
+            </div> -->
+
+            <div class="col-12 submit flex justify-content-center">
+              <input
+                type="submit"
+                name=""
+                value="send message"
+                [disabled]="contact.invalid"
+                class="btn"
+              />
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- contact-form -->
+      </form>
+    </div>
+    <!-- newsletter-subscribe -->
+
+    <div class="contact-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="contact-medium flex align-items-center">
+              <figure class="contact-icon">
+                <span>
+                  <i
+                    class="fa fa-whatsapp"
+                    aria-hidden="true"
+                    style="color: #25d366"
+                  ></i>
+                </span>
+              </figure>
+              <!-- phone-icon -->
+
+              <div class="contact-content">
+                <div class="entry-title">Phone</div>
+                <!-- entry-title -->
+                <div class="entry-content">+91 7820935833</div>
+                <!-- entry-content -->
+              </div>
+              <!-- phone-number -->
+            </div>
+            <!-- contact-phone -->
+          </div>
+          <!-- col-4 -->
+
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+            <div class="contact-medium flex align-items-center">
+              <figure class="contact-icon">
+                <span>
+                  <i
+                    class="fa fa-envelope"
+                    aria-hidden="true"
+                    style="color: #d44638"
+                  ></i>
+                </span>
+              </figure>
+              <!-- phone-icon -->
+
+              <div class="contact-content">
+                <div class="entry-title">E-mail</div>
+                <!-- entry-title -->
+                <div class="entry-content">themegagameplay1&#64;gmail.com</div>
+                <!-- entry-content -->
+              </div>
+              <!-- phone-number -->
+            </div>
+            <!-- contact-phone -->
+          </div>
+          <!-- col-4 -->
+
+          <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+            <div class="contact-medium flex align-items-center">
+              <figure class="contact-icon">
+                <span>
+                  <i
+                    class="fa fa-map-marker"
+                    aria-hidden="true"
+                    style="color: #3fa0e4"
+                  ></i>
+                </span>
+              </figure>
+              <!-- phone-icon -->
+
+              <div class="contact-content">
+                <div class="entry-title">Address</div>
+                <!-- entry-title -->
+                <div class="entry-content">
+                  Pimpri Colony, Pune, Maharashtra 411018
+                </div>
+                <!-- entry-content -->
+              </div>
+              <!-- phone-number -->
+            </div>
+            <!-- contact-phone -->
+          </div>
+          <!-- col-4 -->
+        </div>
+        <!-- row -->
+      </div>
+    </div>
+    <!-- contact-details -->
+
+    <div class="contact-page-map pt-5">
+      <iframe
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Mahindra Antheia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+    </div>
+  </div>
+  <!-- main-content -->
+</div>
+<!-- container -->
