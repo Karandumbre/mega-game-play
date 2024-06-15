@@ -95,3 +95,9 @@ themegagameplay1@gmail.com
 This application is built using Angular 18 for the frontend and Node.js for the backend server.
 
 ## Demo
+
+
+
+https://github.com/Karandumbre/mega-game-play/assets/40163773/213db594-27dd-4a48-b908-6e7ebf0dc76f
+
+
